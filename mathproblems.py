@@ -13,5 +13,5 @@ print('Your friend splits it 2 ways how much do you throw in?')
 input('Press enter key to find out.')
 print('25 / 2 =','25 / 2')
 
-input('\n\nPress the enter key to exit.')
+input('\n\nPress the enter key to exit the terminal')
 
