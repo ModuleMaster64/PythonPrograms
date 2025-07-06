@@ -1,23 +1,23 @@
-number = 64
+number = 645
 
 print ('In this program you will need to guess the number I am thinking of')
 
-print ('I am thinking of a number between 1 and 100')
+print ('I am thinking of a number between 1 and 800')
 
-while number == 64:
+while number == 645:
 
     guess = input()
 
     guess = int(guess)
 
-    if guess < 64:
-        print ('your guess is too low')
+    if guess < 645:
+        print ('Your guess is too low! Please try again.')
 
 
-    if guess > 64:
-        print ('your guess is too high')
+    if guess > 645:
+        print ('Your guess is too high! Please try again.')
 
-    if guess == 64:
-        print('your guess is correct')
+    if guess == 645:
+        print('Well done!! Your guess is correct!')
 
         break
